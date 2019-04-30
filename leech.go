@@ -8,5 +8,5 @@ import (
 func main() {
 	actual := reversebits.ReverseBits(43261596)
 	// expect 964176192
-	fmt.Println(actual)
+	fmt.Printf("%b (%d)\n", actual, actual)
 }

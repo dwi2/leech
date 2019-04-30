@@ -8,6 +8,8 @@
 
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [Answer](reversebits/reversebits.go)
-- TBD
+- Accepted
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Reverse Bits.
+    - Memory Usage: 2.3 MB, less than 100.00% of Go online submissions for Reverse Bits.
 
 
