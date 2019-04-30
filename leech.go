@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leech/strstr"
+	"leech/reversebits"
 )
 
 func main() {
-	test := strstr.StrStr("mississippi", "issipi")
-	fmt.Println(test)
+	actual := reversebits.ReverseBits(43261596)
+	// expect 964176192
+	fmt.Println(actual)
 }
