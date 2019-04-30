@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	test := strstr.StrStr("Hello", "ll")
+	test := strstr.StrStr("mississippi", "issipi")
 	fmt.Println(test)
 }

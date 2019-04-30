@@ -10,15 +10,13 @@ func StrStr(haystack string, needle string) int {
 
 	result := -1
 	for i := 0; i < len(haystack) && result < 0; i++ {
-		for j := 0; j < len(needle) && result < 0; j++ {
+		for j := 0; j < len(needle) && i+j < len(haystack); j++ {
 			if needle[j] != haystack[i+j] {
 				result = -1
 				break
 			} else if needle[j] == haystack[i+j] && j == len(needle)-1 {
 				result = i
 				break
-			} else {
-				result = i
 			}
 		}
 	}
