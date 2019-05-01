@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leech/reversebits"
+	"leech/mergesortedarray"
 )
 
 func main() {
-	actual := reversebits.ReverseBits(43261596)
-	// expect 964176192
-	fmt.Printf("%b (%d)\n", actual, actual)
+	nums1 := []int{1, 2, 3, 0, 0, 0}
+	nums2 := []int{2, 5, 6}
+	actual := mergesortedarray.Merge(nums1, 3, nums2, 3)
+	// expect []int{1, 2, 2, 3, 5, 6}
+	fmt.Printf("%v\n", actual)
 }
