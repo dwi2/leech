@@ -12,6 +12,9 @@
     - Runtime: 4 ms
     - Memory Usage: 3.6 MB
 
+### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [Answer](validpalindrome/validpalindrome.go)
+
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [Answer](reversebits/reversebits.go)
 - Accepted
