@@ -8,7 +8,9 @@
 
 ### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 - [Answer](mergesortedarray/mergesortedarray.go)
-- TBD
+- Accepted
+    - Runtime: 4 ms
+    - Memory Usage: 3.6 MB
 
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [Answer](reversebits/reversebits.go)
