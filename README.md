@@ -14,6 +14,9 @@
 
 ### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [Answer](validpalindrome/validpalindrome.go)
+- Accepted
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Valid Palindrome.
+    - Memory Usage: 3 MB, less than 66.67% of Go online submissions for Valid Palindrome.
 
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [Answer](reversebits/reversebits.go)
